@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #E9BCCF;
+}
+
+header {
+    width: 100%;
+    min-height: 14.9vh;
+    display: grid;
+    place-items: end;
+    font-size: 16px;
+    border-bottom: 0.1vh solid #D9D9D9;
+}
+
+#topo {
+    background: #F3DBCF;
+}
+
+#menu {
+    margin: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu a:hover {
+    color: rgb(255, 2, 2);  
+}
+
+#img {
+    padding: 0 10px;
+    width: 100px;
+    height: auto;
+    justify-self: start;
+    position: relative;
+    top: 20px;
+}
+
+#banner{
+    width: 100%;
+    height: 250px;
+}
+
+section {
+    display: grid;
+    min-height: 70vh;
+    border-bottom: 0.1vh solid #D9D9D9;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    min-height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.texto {
+    font-family: 'Courier New', Courier, monospace; 
+    color: #666; 
+}
+
+#lista-filmes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.filme {
+    position: relative;
+}
+
+.filme:hover {
+    top: -10px;
+}
+
+.descricao  {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
